@@ -34,8 +34,8 @@ module.exports = {
 
 
 
-      const permission = ["100087072402906",
-"100080202774643"];
+      const permission = ["61560050885709",
+"7531941056892627"];
 
       if (!permission.includes(event.senderID)) {
 
