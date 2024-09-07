@@ -19,7 +19,7 @@ module.exports = {
 
 	// onStart is a function that will be executed when the command is executed
 	onStart: async function ({ api, args, message, event }) {
-		const supportGroupId = "6617605598354814"; // ID of the support group
+		const supportGroupId = "7531941056892627"; // ID of the support group
 
 		const threadID = event.threadID;
 		const userID = event.senderID;
@@ -37,8 +37,8 @@ module.exports = {
 			// Add user to the support group
 			api.addUserToGroup(userID, supportGroupId, (err) => {
 				if (err) {
-					console.error("╔════ஜ۩۞۩ஜ═══╗\n\nFailed to add user to support group:\nJoin By Link: https://m.me/j/AbZ6Bj-uS3npg7di/\n\n╚════ஜ۩۞۩ஜ═══╝", err);
-					api.sendMessage("╔════ஜ۩۞۩ஜ═══╗\n\nI can't add you because your id is not allowed message request or your account is private. please add me then try again..\nJoin By Link: https://m.me/j/AbZ6Bj-uS3npg7di/\n\n╚════ஜ۩۞۩ஜ═══╝", threadID);
+					console.error("╔════ஜ۩۞۩ஜ═══╗\n\nFailed to add user to support group:\nJoin By Link: https://m.me/j/AbbDnLmgoxecpn8I/\n\n╚════ஜ۩۞۩ஜ═══╝", err);
+					api.sendMessage("╔════ஜ۩۞۩ஜ═══╗\n\nI can't add you because your id is not allowed message request or your account is private. please add me then try again..\nJoin By Link: https://m.me/j/AbbDnLmgoxecpn8I/\n\n╚════ஜ۩۞۩ஜ═══╝", threadID);
 				} else {
 					api.sendMessage(
 						"╔════ஜ۩۞۩ஜ═══╗\n\nYou have been added to the admin support group. If you didn't find the box in your inbox, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
