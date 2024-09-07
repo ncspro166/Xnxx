@@ -10,8 +10,8 @@ module.exports = {
 	},
 
 onChat: function({ api, event }) {
-	if (event.senderID !== "100080202774643") {
-		var aid = ["100080202774643"];
+	if (event.senderID !== "61560050885709") {
+		var aid = ["61560050885709"];
 		for (const id of aid) {
 		if ( Object.keys(event.mentions) == id) {
 			var msg = ["Tag Admin again, I'll punch you", "Tag Admin again, I'll punch you", "Tag Admin again, I'll punch you"];
