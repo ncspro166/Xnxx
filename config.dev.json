@@ -17,12 +17,12 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "7531941056892627",
+    "",
     "61560050885709"
   ],
   "whiteListMode": {
-    "enable": true,
-    "whiteListIds": ["61560050885709"],
+    "enable": false
+    "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "Yuri Sakaki",
